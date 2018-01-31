@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HelloWorld {
     public static void main (String [] args) {
         String x = "Hello";
@@ -12,7 +14,16 @@ public class HelloWorld {
             int d = i + 1;
             System.out.println(d + " = " + x.charAt(i));
         }
+
+        Scanner reader = new Scanner(System.in);  // assigns value from the input
+        System.out.println("Press right after the ':' symbol and enter a number: ");
+        int n = reader.nextInt(); // scans the next token of the input as an int.
+        System.out.println("The number which you typed is: " + n);
+        reader.close();
+
+
     }
+
 }
 
 
