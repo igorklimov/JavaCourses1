@@ -1,3 +1,5 @@
+package forTasks;
+
 import java.util.Scanner;
 
 public class forTask2 {
