@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner; // import of the Scanner class
 
 public class HelloWorld {
     public static void main (String [] args) {
@@ -15,13 +15,15 @@ public class HelloWorld {
             System.out.println(d + " = " + x.charAt(i));
         }
 
-        Scanner reader = new Scanner(System.in);  // assigns value from the input
+        Scanner number1 = new Scanner(System.in);  // create new variable number1 in the Scanner class
         System.out.println("Press right after the ':' symbol and enter a number: ");
-        int n = reader.nextInt(); // scans the next token of the input as an int.
-        System.out.println("The number which you typed is: " + n);
-        reader.close();
-
-
+        int n = number1.nextInt(); // assign the entered number to the variable n
+        Scanner number2 = new Scanner(System.in); // create new variable number2 in the Scanner class
+        System.out.println("Press right after the ':' symbol and enter a number: ");
+        int h = number2.nextInt(); // assign the entered number to the variable h
+        int z = n + h;
+        System.out.println("The sum of " + n + " + " + h + " = " + z);
+        number1.close();
     }
 
 }
