@@ -23,9 +23,10 @@ public class HelloWorld {
         int h = number2.nextInt(); // assign the entered number to the variable h
         int z = n + h;
         System.out.println("The sum of " + n + " + " + h + " = " + z);
+        int s = 2;
+        System.out.println("The square is " + Math.pow(z, s));3
         number1.close();
     }
-
 }
 
 
