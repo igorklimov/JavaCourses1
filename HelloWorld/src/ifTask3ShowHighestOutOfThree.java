@@ -5,13 +5,13 @@ public class ifTask3ShowHighestOutOfThree {
         // Написать консольную программу, которая запрашивает у пользователя три целых числа и выводит на консоль наибольшее из них.
         // Если все числа равны то вывести на консоль текст "A == B == С".
 
+        int numberInput1, numberInput2, numberInput3;
         Scanner number = new Scanner(System.in);
-        System.out.println("Press right after the ':' symbol and enter a number: ");
-        int numberInput1 = number.nextInt();
-        System.out.println("Press right after the ':' symbol and enter a number: ");
-        int numberInput2 = number.nextInt();
-        System.out.println("Press right after the ':' symbol and enter a number: ");
-        int numberInput3 = number.nextInt();
+        System.out.println("Press right after the ':' symbol and enter three numbers (press 'Enter' after each number): ");
+
+        numberInput1 = number.nextInt();
+        numberInput2 = number.nextInt();
+        numberInput3 = number.nextInt();
 
 
         if (numberInput1 > numberInput2 && numberInput1 > numberInput3) {
