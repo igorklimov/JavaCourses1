@@ -6,22 +6,29 @@ public class Test{
      */
     public static void main(String[] args) {
 
+        // get numbers
+
         Scanner a = new Scanner(System.in);
         System.out.println("Press right after the ':' symbol and enter a number: ");
-        int aInput = a.nextInt(); // assign the entered number to the variable n
+        int aInput = a.nextInt();
 
-        Scanner b = new Scanner(System.in);  // create new variable number1 in the Scanner class
+        Scanner b = new Scanner(System.in);
         System.out.println("Press right after the ':' symbol and enter a number: ");
-        int bInput = b.nextInt(); // assign the entered number to the variable n
+        int bInput = b.nextInt();
 
-        Scanner c = new Scanner(System.in);  // create new variable number1 in the Scanner class
+        Scanner c = new Scanner(System.in);
         System.out.println("Press right after the ':' symbol and enter a number: ");
-        int cInput = c.nextInt(); // assign the entered number to the variable n
+        int cInput = c.nextInt();
+
+        // calculate Discriminant
 
         Quadratic Discriminant = new Quadratic(aInput, bInput, cInput);
         int D = Discriminant.calculateDiscriminant();
         System.out.println("Discriminant is " + D);
 
+
+        // calculate squares
+        
         if (D > 0) {
             double x1, x2;
             x1 = (-bInput - Math.sqrt(D)) / (2 * aInput);
