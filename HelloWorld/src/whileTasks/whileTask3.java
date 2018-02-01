@@ -13,22 +13,27 @@ public class whileTask3 {
 
         // get random number
         Random rand = new Random();
-        int  randomNumber = rand.nextInt(100) + 1;
-
-        //ask user to enter a number
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter one number: ");
-        int numberInput = input.nextInt();
+        int randomNumber = 1;
+        int numberInput = 0;
 
-        // compare numbers
-        if (randomNumber > numberInput) {
-            System.out.println("Our random number " + randomNumber + " is higher than your -> " + numberInput);
+        //ask user to enter a number and if it is false - return to the beginning
+        while (randomNumber != numberInput) {
+            System.out.println("Enter one number: ");
+            numberInput = input.nextInt();
+            randomNumber = rand.nextInt(10) + 1;
+
+            // compare numbers
+            if (randomNumber > numberInput) {
+                System.out.println("Our random number " + randomNumber + " is higher than your -> " + numberInput);
+            }
+            else if (randomNumber < numberInput) {
+                System.out.println("Your number " + numberInput + " is higher than our random number -> " + randomNumber);
+            }
+            else {
+                System.out.println("Our numbers are equal -> " + numberInput + " = " + randomNumber);
+            }
         }
-        else if (randomNumber < numberInput) {
-            System.out.println("Your number " + numberInput + " is higher than our random number -> " + randomNumber);
-        }
-        else {
-            System.out.println("Our numbers are equal ->" + numberInput + " = " + randomNumber);
-        }
+
     }
 }
