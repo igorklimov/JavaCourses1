@@ -1,3 +1,5 @@
+package whileTasks;
+
 public class whileTask2 {
     public static void main (String [] args) {
 

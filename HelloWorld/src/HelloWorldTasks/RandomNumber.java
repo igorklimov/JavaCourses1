@@ -1,3 +1,5 @@
+package HelloWorldTasks;
+
 import java.util.Random;
 
 public class RandomNumber {

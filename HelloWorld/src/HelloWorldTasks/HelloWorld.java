@@ -1,3 +1,5 @@
+package HelloWorldTasks;
+
 import java.util.Scanner; // import of the Scanner class
 
 public class HelloWorld {

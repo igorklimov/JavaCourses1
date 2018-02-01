@@ -1,3 +1,5 @@
+package ifTasks;
+
 public class Quadratic {
 
 
