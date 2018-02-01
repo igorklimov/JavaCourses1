@@ -28,7 +28,7 @@ public class Test{
 
 
         // calculate squares
-        
+
         if (D > 0) {
             double x1, x2;
             x1 = (-bInput - Math.sqrt(D)) / (2 * aInput);
