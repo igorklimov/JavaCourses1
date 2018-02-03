@@ -35,11 +35,6 @@ public class whileTask4 {
 
         while (!userAnswer.contains(("equal").toLowerCase())) {
 
-            machineNumber = randomNumber.nextInt(max - min) + min;
-            System.out.println("I assume that your number is " + machineNumber);
-            System.out.println("Is your number higher, lower or equal?");
-            userAnswer = userResponse.nextLine();
-
             if (userAnswer.contains(("higher").toLowerCase())) {
                 min = machineNumber;
             }
@@ -50,6 +45,11 @@ public class whileTask4 {
             else {
                 break;
             }
+
+            machineNumber = randomNumber.nextInt(max - min) + min;
+            System.out.println("I assume that your number is " + machineNumber + " min = " + min + " max = " + max);
+            System.out.println("Is your number higher, lower or equal?");
+            userAnswer = userResponse.nextLine();
         }
         System.out.println("Numbers are equal");
     }
