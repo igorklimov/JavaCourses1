@@ -1,7 +1,7 @@
 package whileTasks;
 import java.util.Scanner;
 
-public class whileTask2 {
+public class WhileTask2 {
     public static void main (String [] args) {
 
         // Написать консольную программу, которая запрашивает у пользователя два числа.

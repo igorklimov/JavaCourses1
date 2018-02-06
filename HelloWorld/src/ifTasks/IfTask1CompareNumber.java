@@ -2,7 +2,7 @@ package ifTasks;
 
 import java.util.Scanner;
 
-public class ifTask1CompareNumber {
+public class IfTask1CompareNumber {
     public static void main (String [] args) {
         // Task:
         // Запросите у пользователя целое число:

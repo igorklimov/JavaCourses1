@@ -3,7 +3,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 
-public class whileTask3 {
+public class WhileTask3 {
     public static void main (String [] args) {
         // Загадайка - загадывает
         //

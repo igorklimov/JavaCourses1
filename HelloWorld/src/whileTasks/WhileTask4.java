@@ -17,7 +17,7 @@ import java.util.Scanner;
 // обманывает программу, т.е. если пользователь на число 50 ответил, что загаданное число больше,
 // то программа не должна называть числа меньше 51.
 
-public class whileTask4 {
+public class WhileTask4 {
     public static void main (String[] args) {
         System.out.println("Please think of a number from 0 to 100");
 

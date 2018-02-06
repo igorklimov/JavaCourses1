@@ -2,7 +2,7 @@ package arrayTasks;
 
 import java.util.Random;
 
-public class arrayTask1 {
+public class ArrayTask1 {
     public static void main (String[] args) {
         // Написать консольную программу, в которой нужно создать массив целых чисел длиной 10 элементов,
         // заполнить массив случайными числами и вывести его на консоль.

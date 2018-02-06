@@ -3,7 +3,7 @@ package arrayTasks;
 import java.util.Random;
 import java.util.Scanner;
 
-public class arrayTask2 {
+public class ArrayTask2 {
     public static void main(String[] args) {
         // Tasks [2 - 7]
 

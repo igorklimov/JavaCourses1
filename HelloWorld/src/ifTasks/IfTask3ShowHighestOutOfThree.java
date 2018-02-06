@@ -2,7 +2,7 @@ package ifTasks;
 
 import java.util.Scanner;
 
-public class ifTask3ShowHighestOutOfThree {
+public class IfTask3ShowHighestOutOfThree {
     public static void main (String [] args) {
         // Написать консольную программу, которая запрашивает у пользователя три целых числа и выводит на консоль наибольшее из них.
         // Если все числа равны то вывести на консоль текст "A == B == С".

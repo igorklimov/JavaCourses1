@@ -2,7 +2,7 @@ package forTasks;
 
 import java.util.Scanner;
 
-public class forTask3 {
+public class ForTask3 {
     public static void main (String [] args) {
         // Написать консольную программу, которая запрашивает
         //у пользователя два целых числа и если певое число

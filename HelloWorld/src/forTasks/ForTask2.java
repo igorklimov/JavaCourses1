@@ -2,7 +2,7 @@ package forTasks;
 
 import java.util.Scanner;
 
-public class forTask2 {
+public class ForTask2 {
     public static void main (String [] args) {
         // Написать консольную программу, которая запрашивает у пользователя два числа.
         //

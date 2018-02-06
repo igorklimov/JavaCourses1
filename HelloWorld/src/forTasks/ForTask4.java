@@ -2,7 +2,7 @@ package forTasks;
 
 import java.util.Scanner;
 
-public class forTask4 {
+public class ForTask4 {
     public static void main (String [] args) {
         // Написать консольную программу, которая запрашивает у пользователя два целых
         // числа и если первое число меньше второго то считает сумму целых чисел от первого до второго включительно.

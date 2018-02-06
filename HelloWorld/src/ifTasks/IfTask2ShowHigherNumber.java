@@ -2,7 +2,7 @@ package ifTasks;
 
 import java.util.Scanner;
 
-public class ifTask2ShowHigherNumber {
+public class IfTask2ShowHigherNumber {
     public static void main (String [] args) {
         // Task (can be changed a bit)
         // Написать консольную программу, которая запрашивает у пользователя два целых числа и выводит на консоль наибольшее из них.

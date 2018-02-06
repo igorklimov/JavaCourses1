@@ -1,6 +1,6 @@
 package whileTasks;
 
-public class whileTask1 {
+public class WhileTask1 {
     public static void main (String [] args) {
         // Написать консольную программу, которая при помощи цикла while печатает на консоли числа от 0 до 100.
 
