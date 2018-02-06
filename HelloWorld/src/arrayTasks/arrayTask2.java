@@ -3,16 +3,9 @@ package arrayTasks;
 import java.util.Random;
 import java.util.Scanner;
 
-import static java.util.Arrays.binarySearch;
-
 public class arrayTask2 {
     public static void main(String[] args) {
-        // Написать консольную программу, в которой нужно:
-        //
-        // 1) создать массив целых чисел длиной 10 элементов
-        // 2) заполнить массив случайными числами
-        // 3) вывести его на консоль
-        // 4) посчитать сумму чисел в массиве
+        // Tasks [2 - 7]
 
         int result = 0;
         int i;
