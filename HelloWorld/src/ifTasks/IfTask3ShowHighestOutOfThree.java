@@ -11,7 +11,6 @@ public class IfTask3ShowHighestOutOfThree {
         Scanner scanner = new Scanner(System.in);
         String word = "";
 
-
         while (!word.equals("exit")) {
             System.out.println("Press right after the ':' symbol and enter three numbers (press 'Enter' after each number): ");
             numberInput1 = scanner.nextInt();
@@ -29,7 +28,7 @@ public class IfTask3ShowHighestOutOfThree {
 
             System.out.println("Do you want to continue? If Yes -> type 'continue', if not - type 'exit'");
             scanner.nextLine();
-            word = scanner.nextLine();
+            word = scanner.nextLine().toLowerCase();
         }
         scanner.close();
     }

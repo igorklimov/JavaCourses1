@@ -2,10 +2,7 @@ package ifTasks;
 
 import java.util.Scanner;
 
-public class Test {
-    /**
-     * @param args the command line arguments
-     */
+public class IfTask4Test {
     public static void main(String[] args) {
 
         // get numbers
@@ -24,7 +21,7 @@ public class Test {
 
         // calculate Discriminant
 
-        Quadratic Discriminant = new Quadratic(aInput, bInput, cInput);
+        IfTask4Quadratic Discriminant = new IfTask4Quadratic(aInput, bInput, cInput);
         int D = Discriminant.calculateDiscriminant();
         System.out.println("Discriminant is " + D);
 

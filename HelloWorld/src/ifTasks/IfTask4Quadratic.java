@@ -1,13 +1,13 @@
 package ifTasks;
 
-public class Quadratic {
+public class IfTask4Quadratic {
 
 
     private int aValue;
     private int bValue;
     private int cValue;
 
-    public Quadratic(int a, int b, int c) {
+    public IfTask4Quadratic(int a, int b, int c) {
         aValue = a;
         bValue = b;
         cValue = c;
@@ -18,5 +18,5 @@ public class Quadratic {
         return answer;
     }
 
-}//end class
+}
 
