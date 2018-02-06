@@ -7,17 +7,11 @@ public class IfTask4Test {
 
         // get numbers
 
-        Scanner a = new Scanner(System.in);
-        System.out.println("Press right after the ':' symbol and enter a number: ");
-        int aInput = a.nextInt();
-
-        Scanner b = new Scanner(System.in);
-        System.out.println("Press right after the ':' symbol and enter a number: ");
-        int bInput = b.nextInt();
-
-        Scanner c = new Scanner(System.in);
-        System.out.println("Press right after the ':' symbol and enter a number: ");
-        int cInput = c.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Press right after the ':' symbol and enter 3 numbers: ");
+        int aInput = scanner.nextInt();
+        int bInput = scanner.nextInt();
+        int cInput = scanner.nextInt();
 
         // calculate Discriminant
 
