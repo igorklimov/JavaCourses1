@@ -1,4 +1,5 @@
 package whileTasks;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -18,7 +19,7 @@ import java.util.Scanner;
 // то программа не должна называть числа меньше 51.
 
 public class WhileTask4 {
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         System.out.println("Please think of a number from 0 to 100");
 
         int min = 0;
@@ -37,12 +38,9 @@ public class WhileTask4 {
 
             if (userAnswer.contains(("higher").toLowerCase())) {
                 min = machineNumber;
-            }
-
-            else if (userAnswer.contains(("lower").toLowerCase())) {
+            } else if (userAnswer.contains(("lower").toLowerCase())) {
                 max = machineNumber;
-            }
-            else {
+            } else {
                 break;
             }
 

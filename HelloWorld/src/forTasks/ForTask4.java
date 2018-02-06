@@ -3,7 +3,7 @@ package forTasks;
 import java.util.Scanner;
 
 public class ForTask4 {
-    public static void main (String [] args) {
+    public static void main(String[] args) {
         // Написать консольную программу, которая запрашивает у пользователя два целых
         // числа и если первое число меньше второго то считает сумму целых чисел от первого до второго включительно.
         //
@@ -14,14 +14,13 @@ public class ForTask4 {
         System.out.println("Enter two numbers: ");
         number1 = numberInput.nextInt();
         number2 = numberInput.nextInt();
-        
+
         if (number1 < number2) {
-            for(int i=number1; i<=number2; i++) {
+            for (int i = number1; i <= number2; i++) {
                 sum += i;
             }
             System.out.println(sum);
-        }
-        else {
+        } else {
             System.out.println("Nope.");
         }
 

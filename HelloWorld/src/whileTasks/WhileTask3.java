@@ -1,10 +1,11 @@
 package whileTasks;
+
 import java.util.Random;
 import java.util.Scanner;
 
 
 public class WhileTask3 {
-    public static void main (String [] args) {
+    public static void main(String[] args) {
         // Загадайка - загадывает
         //
         //1. Программа загадывает число от 1 до 100 случайным образом.
@@ -26,11 +27,9 @@ public class WhileTask3 {
             // compare numbers
             if (randomNumber > numberInput) {
                 System.out.println("Our random number " + randomNumber + " is higher than your -> " + numberInput);
-            }
-            else if (randomNumber < numberInput) {
+            } else if (randomNumber < numberInput) {
                 System.out.println("Your number " + numberInput + " is higher than our random number -> " + randomNumber);
-            }
-            else {
+            } else {
                 System.out.println("Our numbers are equal -> " + numberInput + " = " + randomNumber);
             }
         }

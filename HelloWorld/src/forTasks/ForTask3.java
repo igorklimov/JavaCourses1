@@ -3,7 +3,7 @@ package forTasks;
 import java.util.Scanner;
 
 public class ForTask3 {
-    public static void main (String [] args) {
+    public static void main(String[] args) {
         // Написать консольную программу, которая запрашивает
         //у пользователя два целых числа и если певое число
         //меньше второго то программа выводит на консоль
@@ -17,13 +17,12 @@ public class ForTask3 {
         number2 = numberInput.nextInt();
 
         if (number1 < number2) {
-            for(int i=number1; i<=number2; i++) {
+            for (int i = number1; i <= number2; i++) {
                 if ((i % 2) == 0) {
                     System.out.println(i);
                 }
             }
-        }
-        else {
+        } else {
             System.out.println("Nope.");
         }
 

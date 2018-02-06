@@ -2,7 +2,7 @@ package ifTasks;
 
 import java.util.Scanner;
 
-public class Test{
+public class Test {
     /**
      * @param args the command line arguments
      */
@@ -36,13 +36,11 @@ public class Test{
             x1 = (-bInput - Math.sqrt(D)) / (2 * aInput);
             x2 = (-bInput + Math.sqrt(D)) / (2 * aInput);
             System.out.println("Squares are: x1 = " + x1 + ", x2 = " + x2);
-        }
-        else if (D == 0) {
+        } else if (D == 0) {
             double x;
             x = -bInput / (2 * aInput);
             System.out.println("The only square is : x = " + x);
-        }
-        else {
+        } else {
             System.out.println("No squares!");
         }
     }

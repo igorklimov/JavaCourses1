@@ -93,6 +93,8 @@ public class ArrayTask2 {
         System.out.println("Sum is = " + result);
         System.out.println("Number of even: " + even + " and number of odd: " + odd);
         System.out.println("The highest number is  " + max);
+
+        searchNum.close();
     }
 
     // Binary search method

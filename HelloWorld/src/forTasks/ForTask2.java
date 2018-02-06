@@ -3,7 +3,7 @@ package forTasks;
 import java.util.Scanner;
 
 public class ForTask2 {
-    public static void main (String [] args) {
+    public static void main(String[] args) {
         // Написать консольную программу, которая запрашивает у пользователя два числа.
         //
         //Если первое число меньше второго то при помощи цикла for
@@ -16,11 +16,10 @@ public class ForTask2 {
         number2 = numberInput.nextInt();
 
         if (number1 < number2) {
-            for(int i=number1; i<=number2; i++) {
+            for (int i = number1; i <= number2; i++) {
                 System.out.println(i);
             }
-        }
-        else {
+        } else {
             System.out.println("Nope.");
         }
     }

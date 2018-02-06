@@ -14,7 +14,7 @@ public class Quadratic {
     }
 
     public int calculateDiscriminant() {
-        int answer = ((bValue*bValue)+(-4*aValue*cValue));
+        int answer = ((bValue * bValue) + (-4 * aValue * cValue));
         return answer;
     }
 

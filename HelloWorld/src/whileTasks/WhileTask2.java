@@ -1,8 +1,9 @@
 package whileTasks;
+
 import java.util.Scanner;
 
 public class WhileTask2 {
-    public static void main (String [] args) {
+    public static void main(String[] args) {
 
         // Написать консольную программу, которая запрашивает у пользователя два числа.
         // Если первое число меньше второго то при помощи цикла while
