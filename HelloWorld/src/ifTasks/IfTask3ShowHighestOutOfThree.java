@@ -8,22 +8,30 @@ public class IfTask3ShowHighestOutOfThree {
         // Если все числа равны то вывести на консоль текст "A == B == С".
 
         int numberInput1, numberInput2, numberInput3;
-        Scanner number = new Scanner(System.in);
-        System.out.println("Press right after the ':' symbol and enter three numbers (press 'Enter' after each number): ");
+        Scanner scanner = new Scanner(System.in);
+        String word = "";
 
-        numberInput1 = number.nextInt();
-        numberInput2 = number.nextInt();
-        numberInput3 = number.nextInt();
 
-        if (numberInput1 > numberInput2 && numberInput1 > numberInput3) {
-            System.out.println("Number " + numberInput1 + " is higher than " + numberInput2 + " and number " + numberInput3);
-        } else if (numberInput2 > numberInput1 && numberInput2 > numberInput3) {
-            System.out.println("Number " + numberInput2 + " is higher than " + numberInput1 + " and number " + numberInput3);
-        } else if (numberInput3 > numberInput1 && numberInput3 > numberInput2) {
-            System.out.println("Number " + numberInput3 + " is higher than " + numberInput1 + " and number " + numberInput2);
-        } else {
-            System.out.println(numberInput1 + " == " + numberInput2 + " == " + numberInput3);
+        while (!word.equals("exit")) {
+            System.out.println("Press right after the ':' symbol and enter three numbers (press 'Enter' after each number): ");
+            numberInput1 = scanner.nextInt();
+            numberInput2 = scanner.nextInt();
+            numberInput3 = scanner.nextInt();
+            if (numberInput1 > numberInput2 && numberInput1 > numberInput3) {
+                System.out.println("Number " + numberInput1 + " is higher than " + numberInput2 + " and number " + numberInput3);
+            } else if (numberInput2 > numberInput1 && numberInput2 > numberInput3) {
+                System.out.println("Number " + numberInput2 + " is higher than " + numberInput1 + " and number " + numberInput3);
+            } else if (numberInput3 > numberInput1 && numberInput3 > numberInput2) {
+                System.out.println("Number " + numberInput3 + " is higher than " + numberInput1 + " and number " + numberInput2);
+            } else {
+                System.out.println(numberInput1 + " == " + numberInput2 + " == " + numberInput3);
+            }
+
+            System.out.println("Do you want to continue? If Yes -> type 'continue', if not - type 'exit'");
+            scanner.nextLine();
+            word = scanner.nextLine();
         }
-        number.close();
+        scanner.close();
     }
 }
+
