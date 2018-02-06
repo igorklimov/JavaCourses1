@@ -1,5 +1,5 @@
 bin/
 build/
-idea/
+.idea/
 out/
-.iml
+HelloWorld/.iml
