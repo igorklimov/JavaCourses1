@@ -1,7 +1,5 @@
 package methodTasks;
 
-import java.util.Arrays;
-import java.util.OptionalInt;
 import java.util.Random;
 
 public class methodTask6 {

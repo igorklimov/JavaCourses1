@@ -13,7 +13,7 @@ public class methodTask7 {
     private static int[] tenRndNumbers;
 
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
 
         gettingRandomNumbers();
         showHighestNumber();
